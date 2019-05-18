@@ -1,0 +1,28 @@
+{
+  "name": "infertype",
+  "version": "0.0.1",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "keywords": [
+    "typeof",
+    "type",
+    "datatype"
+  ],
+  "author": "hejipalanski@yahoo.com",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hejipalanski/infertype"
+  },
+  "bugs": {
+    "url": "https://github.com/hejipalanski/infertype/issues"
+  },
+  "homepage": "https://github.com/hejipalanski/infertype#readme",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "description": "Infers the type of a variable base on its constructor or its primitive type in absence thereof"
+}
