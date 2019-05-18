@@ -1,9 +1,9 @@
-#infertype
+# infertype
 
 ```shell
 $ npm i infertype
 ```
-#Usage
+# Usage
 
 ```javascript
 const Type = require('../lib');
