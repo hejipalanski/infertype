@@ -33,6 +33,6 @@ console.log(Type.strictMatch('', new String(''))); //false
 
 //returns true if inferred types are exact match or if one of the inferred type is a wrapper class/primitive type of the other
 console.log(Type.match(true, new Boolean(1))); //true
-console.log(Type.match(1, 1000)); //true
+console.log(Type.match('', new String(''))); //true
 console.log(Type.match(1, new Number(100))); //true
 ```
