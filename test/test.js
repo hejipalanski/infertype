@@ -38,3 +38,11 @@ assert.strictEqual(Type.match(true, new Boolean('true')), true);
 assert.strictEqual(Type.match(1, 1000), true);
 assert.strictEqual(Type.match(1, new Number(100)), true);
 assert.strictEqual(Type.match('', new String('')), true);
+
+assert.strictEqual(Type.isPrimitive(undefined), true);
+assert.strictEqual(Type.isPrimitive(null), true);
+assert.strictEqual(Type.isPrimitive(''), true);
+assert.strictEqual(Type.isPrimitive(1), true);
+assert.strictEqual(Type.isPrimitive(true), true);
+assert.strictEqual(Type.isPrimitive(Symbol()), true);
+assert.strictEqual(Type.isPrimitive({}), true);
