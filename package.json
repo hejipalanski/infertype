@@ -8,7 +8,9 @@
   "keywords": [
     "typeof",
     "type",
-    "datatype"
+    "type check",
+    "datatype",
+    "primitive"
   ],
   "author": "hejipalanski@yahoo.com",
   "license": "MIT",
@@ -24,5 +26,5 @@
     "lib": "lib",
     "test": "test"
   },
-  "description": "Infers the type of a variable base on its constructor or its primitive type in absence thereof"
+  "description": "Helper package for determining datatypes on top of javascript's typeof"
 }
