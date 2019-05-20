@@ -6,7 +6,7 @@ $ npm i infertype
 # Usage
 
 ```javascript
-const Type = require('../lib');
+const Type = require('infertype');
 
 //returns the primitive type
 console.log(Type.infer(undefined)); //undefined
